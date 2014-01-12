@@ -6,7 +6,7 @@ Gosass is a wrapper for [libsass](https://github.com/hcatlin/libsass) that is wr
 
 Install libsass and execute:
 
-`go install https://github.com/pascalj/sass`
+`go get github.com/pascalj/sass`
 
 ## Usage
 
@@ -31,7 +31,6 @@ There's also a small command line tool:
 
 ```
 echo 'body f{ background: #fff }\n' | gosass -s -t compressed -o ./test.css
-
 ```
 
 For all options see `gosass -h`.
