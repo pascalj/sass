@@ -27,7 +27,13 @@ func main() {
 }
 ```
 
-There's also a small command line tool:
+### Command line tool
+
+#### Installation
+
+`go get github.com/pascalj/sass/gosass`
+
+#### Usage
 
 ```
 echo 'body f{ background: #fff }\n' | gosass -s -t compressed -o ./test.css
